@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>LoggingFramework.NLogFramework</AssemblyName>
-    <RootNamespace>Washable.Logging.NLogFramework</RootNamespace>
-    <PackageId>Washable.Logging.Common.NLogFramework</PackageId>
+    <AssemblyName>LoggingFramework.NLog.Ninject</AssemblyName>
+    <RootNamespace>Washable.Logging.NLog.Ninject</RootNamespace>
+    <PackageId>Washable.Logging.NLog.Ninject</PackageId>
     <Authors>David Smith</Authors>
     <Company>Washable Software</Company>
     <Product>Common Logging Framework</Product>
@@ -12,8 +12,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NLog" Version="4.6.2" />
+    <PackageReference Include="Ninject" Version="3.3.4" />
     <PackageReference Include="Washable.Logging.Common" Version="1.0.0" />
+    <PackageReference Include="Washable.Logging.Common.NLogFramework" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
