@@ -12,6 +12,12 @@
     <AssemblyVersion>1.0.3</AssemblyVersion>
     <FileVersion>1.0.3</FileVersion>
     <Version>1.0.3</Version>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/davidsmithmke/Common-Logging-Framework</PackageProjectUrl>
+    <Copyright>Copyright © 2019 by David Smith</Copyright>
+    <RepositoryUrl>https://github.com/davidsmithmke/Common-Logging-Framework.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>NLog adapter for Common Logging Framework.</Description>
   </PropertyGroup>
 
   <ItemGroup>

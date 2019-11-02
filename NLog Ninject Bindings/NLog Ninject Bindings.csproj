@@ -12,6 +12,12 @@
     <AssemblyVersion>1.0.3</AssemblyVersion>
     <FileVersion>1.0.3</FileVersion>
     <Version>1.0.3</Version>
+    <PackageProjectUrl>https://github.com/davidsmithmke/Common-Logging-Framework</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright © 2019 by David Smith</Copyright>
+    <RepositoryUrl>https://github.com/davidsmithmke/Common-Logging-Framework.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>Standard Ninject binding modules for Common Logging Framework NLog adapter.</Description>
   </PropertyGroup>
 
   <ItemGroup>
