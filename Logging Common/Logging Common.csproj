@@ -9,6 +9,8 @@
     <Authors>David Smith</Authors>
     <Company>Washable Software</Company>
     <Product>Common Logging Framework</Product>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
   </PropertyGroup>
 
 </Project>

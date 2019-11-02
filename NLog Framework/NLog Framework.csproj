@@ -9,11 +9,13 @@
     <Company>Washable Software</Company>
     <Product>Common Logging Framework</Product>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="NLog" Version="4.6.2" />
-    <PackageReference Include="Washable.Logging.Common" Version="1.0.0" />
+    <PackageReference Include="Washable.Logging.Common" Version="1.0.2" />
   </ItemGroup>
 
 </Project>
