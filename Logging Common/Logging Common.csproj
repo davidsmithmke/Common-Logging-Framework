@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>LoggingFramework.Common</AssemblyName>
+    <RootNamespace>Washable.Logging.Common</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Washable.Logging.Common</PackageId>
+    <Authors>David Smith</Authors>
+    <Company>Washable Software</Company>
+    <Product>Common Logging Framework</Product>
+  </PropertyGroup>
+
+</Project>
