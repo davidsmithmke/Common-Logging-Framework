@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>LoggingFramework.NLog.Ninject</AssemblyName>
+    <RootNamespace>Washable.Logging.NLog.Ninject</RootNamespace>
+    <PackageId>Washable.Logging.NLog.Ninject</PackageId>
+    <Authors>David Smith</Authors>
+    <Company>Washable Software</Company>
+    <Product>Common Logging Framework</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ninject" Version="3.3.4" />
+    <PackageReference Include="Washable.Logging.Common" Version="1.0.0" />
+    <PackageReference Include="Washable.Logging.Common.NLogFramework" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
