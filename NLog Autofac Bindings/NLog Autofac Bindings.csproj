@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Washable.Logging.NLog.Ninject</RootNamespace>
+    <AssemblyName>LoggingFramework.NLog.Autofac</AssemblyName>
+    <Authors>David Smith</Authors>
+    <Company>Washable Software</Company>
+    <Product>Common Logging Framework</Product>
+    <Description>Standard Autofac binding modules for Common Logging Framework NLog adapter.</Description>
+    <Copyright>Copyright © 2021 by David Smith</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/davidsmithmke/Common-Logging-Framework</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/davidsmithmke/Common-Logging-Framework.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NLog Framework\NLog Framework.csproj" />
+  </ItemGroup>
+
+</Project>
